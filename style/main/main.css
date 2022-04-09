@@ -1,0 +1,103 @@
+main {
+  padding-left: 20px;
+}
+main h1 {
+  font-size: 24px;
+  line-height: 32px;
+}
+main p {
+  color: var(--text-gray);
+}
+main a {
+  color: var(--link-blue);
+}
+main a:hover {
+  color: var(--link-hover-blue);
+  text-decoration: underline var(--link-hover-blue);
+}
+
+#head {
+  gap: 5px;
+  margin-bottom: 25px;
+}
+.stars {
+  width: 88px;
+  height: fit-content;
+  margin-right: 5px;
+}
+#rating .down-arrow {
+  margin-right: 10px;
+}
+#rating {
+  gap: 10px;
+}
+hr {
+  background-color: transparent;
+  display: block;
+  height: 1px;
+  border-width: 0;
+  border-top: 1px solid #e7e7e7;
+  line-height: 19px;
+  margin-top: 0;
+  margin-bottom: 14px;
+  width: 90%;
+}
+/*  */
+/*  */
+/*  */
+.btns {
+  padding-top: 10px;
+}
+.btn {
+  height: 49px;
+  width: 156px;
+  padding: 5px 0 5px 10px;
+  border: 1px solid #e7e7e7;
+  margin-right: 10px;
+}
+.btn h4 {
+  font-weight: 100;
+}
+.btn p {
+  font-size: 12px;
+}
+.core {
+  border: 1px solid var(--main-orange);
+  background-color: var(--pricebr--orange);
+}
+.core h4 {
+  font-weight: 900;
+}
+
+.core p {
+  color: var(--price-red);
+}
+.btn:hover > p {
+  color: var(--price-red);
+}
+.btn:hover {
+  background-color: var(--light-gray);
+}
+
+#list {
+  gap: 30px;
+}
+#list ul {
+  padding-top: 15px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+#list .gap {
+  gap: 8px;
+}
+/*  */
+/*  */
+/*  */
+#similar h2 {
+  font-size: 18px;
+  line-height: 24px;
+}
+#stand {
+  height: 85px;
+  width: 85px;
+}

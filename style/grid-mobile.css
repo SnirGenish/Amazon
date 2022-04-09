@@ -1,0 +1,63 @@
+@media only screen and (max-width: 1000px) {
+  .grid {
+    display: grid;
+    grid-template-areas:
+      "mobile-nav"
+      "top-nav"
+      "but-nav"
+      "mobile-header"
+      "pic"
+      "main"
+      "aside"
+      "frequently"
+      "carousel";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  #mobile-nav {
+    grid-area: mobile-nav;
+    height: 48px;
+  }
+  #top-nav {
+    grid-area: top-nav;
+    height: 50px;
+  }
+  #but-nav {
+    grid-area: but-nav;
+    height: 44px;
+  }
+  #mobile-header {
+    grid-area: mobile-header;
+    height: 70px;
+  }
+  #pic {
+    grid-area: pic;
+    height: 350px;
+    border-bottom: 5px solid #e3e6e6;
+  }
+  main {
+    grid-area: main;
+    height: auto;
+    border-bottom: 5px solid #e3e6e6;
+  }
+  aside {
+    grid-area: aside;
+    height: auto;
+    border-bottom: 5px solid #e3e6e6;
+  }
+  #uses {
+    grid-area: used;
+    height: 125px;
+    border-bottom: 5px solid #e3e6e6;
+  }
+  #frequently {
+    grid-area: frequently;
+    height: 300px;
+    border-bottom: 5px solid #e3e6e6;
+  }
+  #carousel {
+    grid-area: carousel;
+    height: 360px;
+    border-bottom: 5px solid #e3e6e6;
+  }
+}

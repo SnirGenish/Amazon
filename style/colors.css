@@ -1,0 +1,39 @@
+:root {
+  --main-orange: #cc6600;
+  --secondary-orange: #febd69;
+  --AddToCart-orange: rgb(255, 216, 20);
+  --AddToCart-orange-hover: rgb(229, 193, 14);
+  --Buynow-orange: rgb(255, 164, 28);
+  --Buynow-orange-hover: rgb(239, 154, 26);
+  --cartnumber-orange: rgb(228, 121, 17);
+  --price-red: #b12704;
+  --pricebr--orange: #fefaf6;
+  --link-blue: #007185;
+  --link-hover-blue: #c7511f;
+  --topnav-blue: #131921;
+  --lownav-blue: #232f3e;
+  --text-gray: #565959;
+  --top-gray: #cccccc;
+  --stock-green: #007600;
+  --v-blue: #0075ff;
+  --light-gray: #f3f3f3;
+  --light-text-gray: #666666;
+}
+.w {
+  color: #ffffff;
+}
+.b {
+  color: #000000;
+}
+.g {
+  color: var(--stock-green);
+}
+.red-price {
+  color: var(--price-red);
+}
+.big-price {
+  font-size: 18px;
+}
+.small {
+  font-size: 12px;
+}

@@ -1,0 +1,15 @@
+.btns {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.btn {
+  height: 116px;
+  width: 138px;
+}
+.core {
+  background: none;
+}
+
+.core span {
+  margin-top: 30px;
+}

@@ -1,0 +1,20 @@
+#but-nav {
+  background-color: var(--lownav-blue);
+}
+#but-desktop {
+  padding: 20px;
+}
+#but-desktop a {
+  color: #ffffff;
+  padding: 3px 10px;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+#but-desktop a:hover {
+  border: 1px solid white;
+}
+#but-desktop img {
+  height: 18px;
+}
+.all-btn {
+  gap: 3px;
+}

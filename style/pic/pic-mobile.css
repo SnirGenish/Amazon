@@ -1,0 +1,16 @@
+#car img {
+  height: 290px;
+}
+#cor {
+  background-color: #949494;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #f3f3f3;
+  border: #949494 1px solid;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 5px;
+}

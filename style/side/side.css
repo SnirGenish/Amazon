@@ -1,0 +1,112 @@
+aside {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+.marg {
+  margin-bottom: 15px;
+}
+aside p {
+  color: var(--text-gray);
+}
+aside a {
+  color: var(--link-blue);
+}
+aside a:hover {
+  color: var(--link-hover-blue);
+}
+aside strong {
+  color: #000000;
+}
+#item {
+  margin-top: 15px;
+}
+#item p {
+  margin-bottom: 15px;
+}
+.locloc {
+  margin-right: 5px;
+}
+/*  */
+/*  */
+/*  */
+#qty {
+  width: 61px;
+  height: 20px;
+  background-color: var(--light-gray);
+  border: #ccc 1px solid;
+  border-radius: 7px;
+  box-shadow: 0px 0px 6px 1px rgba(186, 186, 186, 0.487);
+  font-size: 12px;
+}
+/*  */
+/*  */
+/*  */
+
+.rbtn {
+  height: 29px;
+  border: none;
+  border-radius: 360px;
+}
+.cart-button {
+  background-color: var(--AddToCart-orange);
+}
+.cart-button:hover {
+  background-color: var(--AddToCart-orange-hover);
+}
+.buy-button {
+  background-color: var(--Buynow-orange);
+  margin-top: 8px;
+}
+.buy-button:hover {
+  background-color: var(--Buynow-orange-hover);
+}
+aside #right strong {
+  font-size: 12px;
+  font-weight: 100;
+}
+aside #left {
+  margin-right: 10px;
+}
+aside #left span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #565959;
+}
+.giftp {
+  margin-top: -4px;
+  margin-left: 5px;
+  color: black;
+}
+
+#a-t-list {
+  text-align: left;
+  padding-left: 10px;
+  height: 30px;
+}
+
+#used {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  height: 48px;
+}
+#used img {
+  height: 18px;
+}
+#share {
+  padding-top: 20px;
+}
+#share i {
+  font-size: 19px;
+  padding: 0 4px;
+}
+.fa-facebook-square {
+  color: #3664a2;
+}
+.fa-twitter {
+  color: #67add2;
+}
+.fa-pinterest {
+  color: #de2108;
+}

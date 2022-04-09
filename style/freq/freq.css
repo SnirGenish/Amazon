@@ -1,0 +1,30 @@
+#frequently a {
+  color: var(--link-blue);
+}
+#frequently p {
+  padding: 4px 0;
+}
+#frequently a:hover {
+  color: var(--link-hover-blue);
+  text-decoration: underline var(--link-hover-blue);
+}
+#frequently hr {
+  width: 96%;
+}
+#frequently h2 {
+  margin-bottom: 50px;
+}
+#frequently i {
+  color: #333;
+  margin: 5px;
+}
+
+.prdc {
+  width: 116px;
+  height: 116px;
+}
+#nbtn {
+  border-radius: 5px;
+  font-size: 12px;
+  height: 20px;
+}

@@ -1,0 +1,45 @@
+#mobile-nav {
+  background-color: var(--topnav-blue);
+  padding: 0 10px;
+}
+#menu-btn img {
+  height: 20px;
+}
+#logo-mobile {
+  margin-left: 15px;
+}
+#logo-mobile img {
+  height: 25px;
+}
+#search-mobile button img {
+  height: 28px;
+  width: auto;
+}
+#search-mobile {
+  flex-shrink: 1;
+  width: 100%;
+}
+#search-mobile input {
+  height: 48px;
+  width: 100%;
+  border: none;
+  border-radius: 7px;
+}
+
+#search-mobile button {
+  right: 10px;
+  flex-shrink: 0;
+  height: 48px;
+  width: 48px;
+  border-radius: 7px;
+  border: none;
+  background-color: var(--secondary-orange);
+  color: var(--light-text-gray);
+}
+#signin-mobile img {
+  height: 28px;
+}
+
+#signin-mobile {
+  margin-right: 10px;
+}

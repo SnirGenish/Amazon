@@ -1,0 +1,22 @@
+aside {
+  border: none;
+}
+#s-btns {
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.rbtn {
+  width: 100%;
+  margin: 0px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+#qty {
+  height: 35px;
+  width: 80px;
+}

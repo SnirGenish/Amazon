@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Amazon</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/global.css" />
+    <link rel="stylesheet" href="style/colors.css" />
+    <link rel="stylesheet" href="style/font.css" />
+    <link rel="stylesheet" href="style/grid.css" />
+    <link rel="stylesheet" href="style/grid-mobile.css" />
+    <link rel="stylesheet" href="style/header/header.css" />
+    <link rel="stylesheet" href="style/b-nav/b-nav.css" />
+    <link rel="stylesheet" href="style/carousel/carusel-mobile.css" />
+    <link rel="stylesheet" href="style/carousel/carusel.css" />
+    <link rel="stylesheet" href="style/freq/freq.css" />
+    <link rel="stylesheet" href="style/main/main.css" />
+    <link rel="stylesheet" href="style/nav/nav.css" />
+    <link rel="stylesheet" href="style/side/side.css" />
+    <link rel="stylesheet" href="style/pic/pic.css" />
+    <link rel="stylesheet" href="style/pic/pic-mobile.css" />
+    <link
+      rel="stylesheet"
+      media="(max-width: 1000px)"
+      href="style/freq/freq-mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(max-width: 1000px)"
+      href="style/side/side-mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(max-width: 1000px)"
+      href="style/main/main-mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(max-width: 1000px)"
+      href="style/global-mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(max-width: 1000px)"
+      href="style/header/header-mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(max-width: 1000px)"
+      href="style/b-nav/b-nav-mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(max-width: 1000px)"
+      href="style/nav/nav-mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(max-width: 1000px)"
+      href="style/header/header-mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      href="//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div class="grid cont-w cont-h">
+      <nav id="mobile-nav" class="mobile row j-between a-center cont-w w">
+        <div class="left row a-end">
+          <div id="menu-btn">
+            <img src="png/menu.png" alt="" />
+          </div>
+          <div id="logo-mobile" class="row a-center">
+            <img src="png/logo.png" alt="logo" />
+          </div>
+        </div>
+        <div class="right row a-center j-center">
+          <div id="signin-mobile" class="row no-wrap a-center">
+            <p>Sign In ></p>
+            <img src="png/man.png" alt="" />
+          </div>
+          <div id="cart-mobile">
+            <div class="cart-img rel">
+              <img src="png/cart.png" alt="" />
+              <span id="cart-num" class="abs">0</span>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <nav id="top-nav" class="w cont-w">
+        <div id="nav-row" class="row a-center j-center cont-h cont-w">
+          <div id="logo" class="desktop">
+            <img src="png/logo.png" alt="logo" />
+          </div>
+          <div id="deliver" class="row a-end no-wrap desktop">
+            <img src="png/location.png" alt="loc" />
+
+            <p>
+              <span> Deliver to </span><br />
+              Israel
+            </p>
+          </div>
+          <div id="search-desktop" class="row a-center no-wrap desktop">
+            <select>
+              <option value="">All</option>
+              <option value="">All Departments</option>
+              <option value="">Arts & Crafts</option>
+              <option value="">Baby</option>
+              <option value="">Beauty & Personal Care</option>
+              <option value="">Books</option>
+              <option value="">Boys' Fashion</option>
+              <option value="">Computers</option>
+              <option value="">Deals</option>
+              <option value="">Digital Music</option>
+              <option value="">Electronics</option>
+              <option value="">Girls' Fashion</option>
+              <option value="">Health & Household</option>
+              <option value="">Home & Kitchen</option>
+              <option value="">Industrial & Scientific</option>
+              <option value="">Kindle Store</option>
+              <option value="">Luggage</option>
+              <option value="">Men's Fashion</option>
+              <option value="">Movies & TV</option>
+              <option value="">Music, CDs & Vinyl</option>
+              <option value="">Pet Supplies</option>
+              <option value="">Prime Video</option>
+              <option value="">Software</option>
+              <option value="">Sports & Outdoors</option>
+              <option value="">Tools & Home Improvement</option>
+              <option value="">Toys & Games</option>
+              <option value="">Video Games</option>
+              <option value="">Women's Fashion</option>
+            </select>
+            <input type="text" />
+            <button>
+              <img src="png/search.png" alt="" />
+            </button>
+          </div>
+          <div id="search-mobile" class="row a-center no-wrap mobile">
+            <input type="text" class="rel" />
+            <button class="abs">
+              <img src="png/search.png" alt="" />
+            </button>
+          </div>
+          <div id="country" class="no-wrap desktop">
+            <a href="">
+              <img src="png/amer.png" alt="" />
+              <img class="down-arrow" src="png/arrowd.png" alt="" />
+            </a>
+          </div>
+          <div id="signin-desktop" class="no-wrap desktop">
+            <p>
+              <span> Hello, sign in </span><br />
+              Account & Lists
+              <img class="down-arrow" src="png/arrowd.png" alt="" />
+            </p>
+          </div>
+          <div id="orders" class="no-wrap desktop">
+            <p>
+              <span> Returns </span><br />
+              & Orders
+            </p>
+          </div>
+          <div id="cart" class="row a-end desktop">
+            <div class="cart-img rel">
+              <img src="png/cart.png" alt="" />
+              <span id="cart-num" class="abs">0</span>
+            </div>
+            <p>Cart</p>
+          </div>
+        </div>
+      </nav>
+      <nav id="but-nav" class="w">
+        <div id="b-nav-row" class="row a-center cont-h cont-w">
+          <div id="but-mobile" class="mobile row a-center">
+            <img src="png/location.png" alt="" />
+            <p>Deliver to Israel</p>
+          </div>
+          <div id="but-desktop" class="desktop row a-center">
+            <ul class="row a-center">
+              <li>
+                <a href="" class="row a-center all-btn">
+                  <img src="png/menu.png" alt="" />
+                  <p>All</p>
+                </a>
+              </li>
+              <li><a href=""> Today's Deals</a></li>
+              <li><a href="">Customer Service</a></li>
+              <li><a href="">Registry</a></li>
+              <li><a href="">Gift Cards</a></li>
+              <li><a href="">Sell</a></li>
+              <li><a href="">Local Delivery in Israel</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header id="mobile-header" class="mobile">
+        <div id="header-row" class="row j-between cont-w a-end">
+          <div class="left">
+            <span>Visit the Ernie Ball Store</span>
+            <p>Ernie Ball FlexTune Clip-On Tuner (PO4112)</p>
+          </div>
+          <div class="right row a-center">
+            <img src="png/stars.png" alt="" />
+            <span>165</span>
+          </div>
+        </div>
+      </header>
+      <header id="desktop-header" class="desktop">
+        <div class="row j-start cont-w a-center">
+          <a href="">Musical Instruments </a>
+          <p>></p>
+          <a href=""> Instrument Accessories </a>
+          <p>></p>
+          <a href=""> Guitar & Bass Accessories</a>
+        </div>
+      </header>
+      <section id="pic">
+        <div id="pic-row" class="row j-start a-start sticky desktop">
+          <div id="small-pic" class="col j-between">
+            <div
+              id="s-box1"
+              onmouseover="hovering1()"
+              class="s-p-box noshad row a-center j-center"
+            >
+              <img id="s-pic1" src="photos/big-pic/1pic.jpg" alt="" />
+            </div>
+            <div
+              id="s-box2"
+              onmouseover="hovering2()"
+              class="s-p-box noshad row a-center j-center"
+            >
+              <img id="s-pic2" src="photos/big-pic/2pic.jpg" alt="" />
+            </div>
+            <div
+              id="s-box3"
+              onmouseover="hovering3()"
+              class="s-p-box noshad row a-center j-center"
+            >
+              <img id="s-pic3" src="photos/big-pic/3pic.jpg" alt="" />
+            </div>
+            <div
+              id="s-box4"
+              onmouseover="hovering4()"
+              class="s-p-box noshad row a-center j-center"
+            >
+              <img id="s-pic4" src="photos/big-pic/4pic.jpg" alt="" />
+            </div>
+          </div>
+          <div class="b cont-h cont-h cont-w">
+            <div id="big-pic" class="cont-h cont-w row a-center j-center">
+              <div id="b-pic1" class="b-pic none row a-center j-center">
+                <img id="pic1" src="photos/big-pic/1pic.jpg" alt="" />
+              </div>
+              <div id="b-pic2" class="b-pic none row a-center j-center">
+                <img id="pic2" src="photos/big-pic/2pic.jpg" alt="" />
+              </div>
+              <div id="b-pic3" class="b-pic none row a-center j-center">
+                <img id="pic3" src="photos/big-pic/3pic.jpg" alt="" />
+              </div>
+              <div id="b-pic4" class="b-pic none row a-center j-center">
+                <img id="pic4" src="photos/big-pic/4pic.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="pic-mpbile" class="mobile">
+          <div id="car" class="col rel cont-w j-center">
+            <div class="carpic row a-center j-center cont-w">
+              <img src="photos/big-pic/1pic.jpg" alt="" />
+            </div>
+            <div class="dots row j-center">
+              <div id="cor" class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+          </div>
+        </div>
+        <script>
+          let pic1 = document.getElementById("b-pic1");
+          let pic2 = document.getElementById("b-pic2");
+          let pic3 = document.getElementById("b-pic3");
+          let pic4 = document.getElementById("b-pic4");
+          let box1 = document.getElementById("s-box1");
+          let box2 = document.getElementById("s-box2");
+          let box3 = document.getElementById("s-box3");
+          let box4 = document.getElementById("s-box4");
+          function hovering1() {
+            pic1.classList.remove("none");
+            pic2.classList.add("none");
+            pic3.classList.add("none");
+            pic4.classList.add("none");
+            box1.classList.remove("noshad");
+            box2.classList.add("noshad");
+            box3.classList.add("noshad");
+            box4.classList.add("noshad");
+          }
+          function hovering2() {
+            pic1.classList.add("none");
+            pic2.classList.remove("none");
+            pic3.classList.add("none");
+            pic4.classList.add("none");
+            box1.classList.add("noshad");
+            box2.classList.remove("noshad");
+            box3.classList.add("noshad");
+            box4.classList.add("noshad");
+          }
+          function hovering3() {
+            pic1.classList.add("none");
+            pic2.classList.add("none");
+            pic3.classList.remove("none");
+            pic4.classList.add("none");
+            box1.classList.add("noshad");
+            box2.classList.add("noshad");
+            box3.classList.remove("noshad");
+            box4.classList.add("noshad");
+          }
+          function hovering4() {
+            pic1.classList.add("none");
+            pic2.classList.add("none");
+            pic3.classList.add("none");
+            pic4.classList.remove("none");
+            box1.classList.add("noshad");
+            box2.classList.add("noshad");
+            box3.classList.add("noshad");
+            box4.classList.remove("noshad");
+          }
+          hovering1();
+        </script>
+      </section>
+      <main>
+        <div class="col">
+          <div id="head" class="col desktop">
+            <h1>Ernie Ball FlexTune Clip-On Tuner (P04112)</h1>
+            <a href="">Visit the Ernie Ball Store</a>
+            <div id="rating" class="row a-center no-wrap f-wrap">
+              <div class="row a-center">
+                <img class="stars" src="png/stars.png" alt="" />
+                <img class="down-arrow" src="png/arrowd.png" alt="" />
+              </div>
+              <a href="">165 rating</a>
+              <p>|</p>
+              <a href="">4 answered questions</a>
+            </div>
+            <hr />
+            <p>
+              List Price: <s> &#36;24.99</s>
+              <a href="">Details</a>
+            </p>
+            <p>
+              &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;Price:
+              <span class="red-price big-price">&#36;16.99 </span>
+            </p>
+            <p>
+              You Save:
+              <span class="red-price">&#36;8.00 (32%) </span>
+            </p>
+            <p>
+              No Import Fees Deposit & $11.35 Shipping to Israel
+              <a href=""> Details </a>
+              <img src="png/arrowd.png" class="down-arrow" alt="" />
+            </p>
+            <p class="b">
+              Available at a lower price from <a href=""> other sellers</a>
+              that may not offer free Prime shipping.
+            </p>
+          </div>
+          <div id="buttons">
+            <p>Style: <strong class="b"> FlexTune </strong></p>
+            <div class="btns row">
+              <div class="btn">
+                <h4>CradleTune</h4>
+                <p>5 options from &#36;22.95</p>
+              </div>
+              <div class="btn core">
+                <h4>FlexTune</h4>
+                <p>&#36;16.99</p>
+                <span class="mobile g">in stock.</span>
+              </div>
+            </div>
+          </div>
+          <div id="list" class="desktop col">
+            <ul>
+              <li>Tuner clips on and off of guitar headstock</li>
+              <li>Chromatic, guitar, bass, ukulele, and violin tuning modes</li>
+              <li>2" large, vibrant LCD display</li>
+              <li>
+                Dual-axis 360 degrees pivot arm provides unmatched adjustability
+              </li>
+            </ul>
+            <div class="col gap">
+              <a href="">Compare with similar items</a>
+              <a href=""
+                >New & Used (4) from<span class="red-price"> &#36;14.90</span>
+              </a>
+            </div>
+            <hr />
+          </div>
+          <div id="similar" class="desktop col">
+            <h2>Similar item to conside</h2>
+            <div class="row a-center">
+              <img
+                id="stand"
+                src="photos/main/611Eh3yCovL._SS100_.jpg"
+                alt=""
+              />
+              <div class="col">
+                <a href="">
+                  Amazon Basics Guitar Folding A-Frame Stand for Acoustic and
+                  <br />
+                  Electric Guitars</a
+                >
+                <span class="red-price">&#36;14.54</span>
+                <div class="row">
+                  <img class="stars" src="png/stars.png" alt="" />
+                  <a href=""> (44765) </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <aside>
+        <div class="col">
+          <div id="16" class="desktop col">
+            <span class="red-price big-price">&#36;16.99</span> <br />
+            <p>No Import Fees Deposit & $11.35 Shipping to Israel</p>
+            <a href=""
+              >Details <img src="png/arrowd.png" class="down-arrow" alt=""
+            /></a>
+          </div>
+          <div id="item" class="col">
+            <p>This item ships to <strong> Israel</strong></p>
+            <p>
+              FREE delivery <strong> Wednesday, May 11 </strong> if you spend
+              $49 on eligible items. Order within
+              <span class="g"> 23 hrs 54 mins </span>
+            </p>
+            <p>Or fastest delivery <strong> Monday, April 25 </strong></p>
+            <div class="row a-center marg">
+              <img class="locloc" src="png/loc-b.png" alt="" />
+              <a href="" class="small"> Deliver to Israel</a>
+            </div>
+            <span class="g big-price marg">In Stock.</span>
+            <select class="marg" name="qty" id="qty" aria-placeholder="Qty">
+              <option value="0">Qty: 1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>
+              <option value="">6</option>
+              <option value="">7</option>
+              <option value="">8</option>
+              <option value="">9</option>
+              <option value="">10</option>
+              <option value="">11</option>
+              <option value="">12</option>
+              <option value="">13</option>
+              <option value="">14</option>
+              <option value="">15</option>
+              <option value="">16</option>
+              <option value="">17</option>
+              <option value="">18</option>
+              <option value="">19</option>
+              <option value="">20</option>
+              <option value="">21</option>
+              <option value="">22</option>
+              <option value="">23</option>
+              <option value="">24</option>
+              <option value="">25</option>
+              <option value="">26</option>
+              <option value="">27</option>
+              <option value="">28</option>
+              <option value="">29</option>
+              <option value="">30</option>
+            </select>
+            <div id="s-btns" class="col">
+              <button class="rbtn cart-button">Add to cart</button>
+              <button class="rbtn marg buy-button">Buy Now</button>
+            </div>
+            <div class="row a-end marg">
+              <img
+                class="locloc"
+                src="png/secured-ssl._CB485936932_.png"
+                alt=""
+              />
+              <a href="">Secure transaction</a>
+            </div>
+            <div class="row marg">
+              <div id="left" class="col">
+                <span>Ships from</span>
+                <span>Sold by</span>
+              </div>
+              <div id="right" class="col">
+                <strong>Amazon.com</strong>
+                <strong>Amazon.com</strong>
+              </div>
+            </div>
+            <p>
+              Return policy:
+              <a href="">
+                Eligible for Return, Refund or Replacement within 30 days of
+                receipt
+              </a>
+              <img src="png/arrowd.png" class="down-arrow" alt="" />
+            </p>
+            <p>
+              Support: <a href=""> Free Amazon product support included </a>
+              <img src="png/arrowd.png" class="down-arrow" alt="" />
+            </p>
+            <div class="row a-start desktop">
+              <input type="checkbox" name="gift" value="" />
+              <p class="giftp">Add a gift receipt for easy Returns</p>
+            </div>
+            <div class="mobile">
+              <p>Gift-wrap available.</p>
+            </div>
+            <div class="desktop col j-center">
+              <hr />
+              <button id="a-t-list">Add to List</button>
+            </div>
+          </div>
+          <div class="mobile col">
+            <a href="">ADD TO LIST</a>
+            <hr />
+          </div>
+        </div>
+      </aside>
+      <section id="uses" class="desktop col">
+        <section id="used" class="row a-center j-between">
+          <p>new & used (4) from <span class="red-price"> &#36;14.90 </span></p>
+          <img src="png/arrow.png" alt="" />
+        </section>
+        <section id="share" class="row a-center j-center desktop">
+          <p>Share</p>
+          <i class="fa fa-light fa-envelope"></i>
+          <i class="fa fa-brands fa-facebook-square"></i>
+          <i class="fa fa-brands fa-twitter"></i>
+          <i class="fa fa-brands fa-pinterest"></i>
+        </section>
+      </section>
+      <section id="frequently" class="col">
+        <hr />
+        <h2>Frequently bought together</h2>
+        <div class="tadds row a-start">
+          <div class="adds row a-center">
+            <img
+              class="prdc"
+              src="photos/freq/71b7B3vHTuL._AC_UL232_SR232,232_.jpg"
+              alt=""
+            />
+            <i class="fa-solid fa-plus"></i>
+            <img
+              class="prdc"
+              src="photos/freq/71Ev4nKqnQS._AC_UL232_SR232,232_.jpg"
+              alt=""
+            />
+            <i class="fa-solid fa-plus"></i>
+            <img
+              class="prdc"
+              src="photos/freq/71DqA0ol5kL._AC_UL232_SR232,232_.jpg"
+              alt=""
+            />
+          </div>
+          <div class="bat mobile t-center">
+            <p>Buy all three: <span class="red-price">&#36;53.97</span></p>
+          </div>
+          <div class="totalb col j-center desktop">
+            <p>total price: <span class="red-price">&#36;53.97</span></p>
+            <button id="nbtn" class="rbtn cart-button">
+              Add all three to Cart
+            </button>
+          </div>
+        </div>
+        <div class="desktop col">
+          <p>
+            <input type="checkbox" name="gift" value="" checked />
+            <strong>This item:</strong> Ernie Ball FlexTune Clip-On Tuner
+            (P04112)
+            <span class="red-price">&#36;16.99</span>
+          </p>
+          <p>
+            <input type="checkbox" name="gift" value="" checked />
+            <a href=""
+              >Ernie Ball Regular Slinky Nickel Wound Electric Guitar Strings
+              3-pack, 10-46 Gauge (P03221)
+            </a>
+            <span class="red-price">&#36;16.99</span>
+          </p>
+          <p>
+            <input type="checkbox" name="gift" value="" checked />
+            <a href=""
+              >Ernie Ball Regular Slinky Nickel Wound Bass Guitar Strings,
+              50-105 Gauge (P02832)
+            </a>
+            <span class="red-price">&#36;19.99</span>
+          </p>
+        </div>
+      </section>
+      <section id="carousel">caro</section>
+    </div>
+  </body>
+</html>

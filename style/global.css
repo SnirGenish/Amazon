@@ -1,0 +1,106 @@
+* {
+  /* border: 1px black solid; */
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Amazon Ember";
+  font-size: 14px;
+  line-height: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  color: #c60;
+  font-size: 16px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+.t-center {
+  text-align: center;
+}
+/* flex */
+/* flex */
+/* flex */
+/* flex */
+.row {
+  display: flex;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.a-center {
+  align-items: center;
+}
+.a-start {
+  align-items: flex-start;
+}
+.a-end {
+  align-items: flex-end;
+}
+.j-start {
+  justify-content: flex-start;
+}
+.j-center {
+  justify-content: center;
+}
+.j-end {
+  justify-content: flex-end;
+}
+.j-between {
+  justify-content: space-between;
+}
+.j-around {
+  justify-content: space-around;
+}
+.j-evenly {
+  justify-content: space-evenly;
+}
+.f-wrap {
+  flex-wrap: wrap;
+}
+/* boxes */
+/* boxes */
+/* boxes */
+.cont-h {
+  height: 100%;
+}
+.cont-w {
+  width: 100%;
+}
+.no-wrap {
+  white-space: nowrap;
+}
+/* png */
+/* png */
+/* png */
+.down-arrow {
+  width: 8px;
+}
+/* position */
+/* position */
+/* position */
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+.sticky {
+  position: sticky;
+}
+/* mobile */
+/* mobile */
+/* mobile */
+.desktop {
+  display: flex;
+}
+.mobile {
+  display: none;
+}
